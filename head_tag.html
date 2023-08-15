@@ -1,4 +1,3 @@
-<script type="text/javascript" src="https://jen.studio/assets/js/jquery-3.5.1.min.js?v=162aa3e5e4"></script>
 <script>
 var slidein={defaults:{ajaxloadgif:'../assets/js/squareloading.gif',fx:{dur:'normal',easing:'swing'},openamount:'95%',openamount_minthreshold:'10px'},$panelref:null,$contentarea:null,setting:null,docdimensions:null,paneldimensions:null,$ajaxloadgif:null,delaytimer:null,loadcontent:function(url,type){var $=jQuery;if(url===null){this.$contentarea.empty();this.$panelref.data('state','closed')}
 else{this.$panelref.data('state','open');this.$contentarea.html(this.$ajaxloadgif);if(type){loadtype=type}
